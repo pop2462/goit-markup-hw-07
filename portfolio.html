@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+  </head>
+  <body>
+    <!--Шапка сайту-->
+    <header class="header">
+      <div class="container header-container">
+        <nav class="navigation">
+          <a href="" class="logo"
+            >Web<span class="logo-header">Studio</span>
+          </a>
+          <ul class="site-nav list">
+            <li class="site-nav-item">
+              <a href="./index.html" class="link">Студія</a>
+            </li>
+            <li class="site-nav-item">
+              <a href="./portfolio.html" class="link current">Портфоліо</a>
+            </li>
+            <li class="site-nav-item"><a href="" class="link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contact-link list">
+          <li class="mail">
+            <a href="mailto:info@devstudio.com" class="connection"
+              ><svg class="contact-link-icon" width="16" height="10">
+                <use href="./images/sprite.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="namber">
+            <a href="tel:+380961111111" class="connection"
+              ><svg class="contact-link-icon" width="10" height="16">
+                <use href="./images/sprite.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!-- Портфоліо -->
+      <section class="section">
+        <div class="container">
+          <!-- Фільтри -->
+          <h1 class="filters-title visually-hidden">Фільтри</h1>
+          <ul class="filters list">
+            <li class="filter">
+              <button type="button" class="button filter-portfolio pointer">
+                Усі
+              </button>
+            </li>
+            <li class="filter">
+              <button type="button" class="button filter-portfolio pointer">
+                Веб-сайти
+              </button>
+            </li>
+            <li class="filter">
+              <button type="button" class="button filter-portfolio pointer">
+                Додатки
+              </button>
+            </li>
+            <li class="filter">
+              <button type="button" class="button filter-portfolio pointer">
+                Дизайн
+              </button>
+            </li>
+            <li class="filter">
+              <button type="button" class="button filter-portfolio pointer">
+                Маркетинг
+              </button>
+            </li>
+          </ul>
+          <!-- Приклади робіт -->
+          <h2 class="section-title visually-hidden">Приклади робіт</h2>
+          <ul class="robots-list list">
+            <li class="robots-item">
+              <a href="" class="robots-link">
+                <div class="robots-thumb">
+                  <img
+                    src="./images/portfolio1.jpg"
+                    alt="Сторінка у браузері ноутбуку"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="robots-item-overlay">
+                    <div class="robots-description">
+                      <p class="robots-description-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="robots-wrapper">
+                  <h3 class="robots-title">Технокряк</h3>
+                  <p class="text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="robots-item">
+              <a href="" class="robots-link">
+                <div class="robots-thumb">
+                  <img
+                  src="./images/portfolio2.jpg"
+                  alt="Сторінка у браузері ноутбуку"
+                  width="370"
+                  height="294"
+                />
+                <div class="robots-item-overlay">
+                    <div class="robots-description">
+                      <p class="robots-description-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="robots-wrapper">
+                  <h3 class="robots-title">Постер New Orlean vs Golden Star</h3>
+                  <p class="text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="robots-item">
+              <a href="" class="robots-link">
+                <div class="robots-thumb">
+                  <img
+                  src="./images/portfolio3.jpg"
+                  alt="Сторінка у браузері ноутбуку"
+                  width="370"
+                  height="294"
+                />
+                <div class="robots-item-overlay">
+                    <div class="robots-description">
+                      <p class="robots-description-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="robots-wrapper">
+                  <h3 class="robots-title">Ресторан Seafood</h3>
+                  <p class="text">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="robots-item">
+              <a href="" class="robots-link">
+                <div class="robots-thumb">
+                  <img
+                  src="./images/portfolio4.jpg"
+                  alt="Сторінка у браузері ноутбуку"
+                  width="370"
+                  height="294"
+                />
+                <div class="robots-item-overlay">
+                    <div class="robots-description">
+                      <p class="robots-description-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="robots-wrapper">
+                  <h3 class="robots-title">Проєкт Prime</h3>
+                  <p class="text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="robots-item">
+              <a href="" class="robots-link">
+                <div class="robots-thumb">
+                  <img
+                  src="./images/portfolio5.jpg"
+                  alt="Сторінка у браузері ноутбуку"
+                  width="370"
+                  height="294"
+                />
+                <div class="robots-item-overlay">
+                    <div class="robots-description">
+                      <p class="robots-description-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="robots-wrapper">
+                  <h3 class="robots-title">Проєкт Boxes</h3>
+                  <p class="text">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="robots-item">
+              <a href="" class="robots-link">
+                <div class="robots-thumb">
+                  <img
+                  src="./images/portfolio6.jpg"
+                  alt="Сторінка у браузері ноутбуку"
+                  width="370"
+                  height="294"
+                />
+                <div class="robots-item-overlay">
+                    <div class="robots-description">
+                      <p class="robots-description-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="robots-wrapper">
+                  <h3 class="robots-title">inspiration has no Borders</h3>
+                  <p class="text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="robots-item">
+              <a href="" class="robots-link">
+                <div class="robots-thumb">
+                  <img
+                  src="./images/portfolio7.jpg"
+                  alt="Сторінка у браузері ноутбуку"
+                  width="370"
+                  height="294"
+                />
+                <div class="robots-item-overlay">
+                    <div class="robots-description">
+                      <p class="robots-description-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="robots-wrapper">
+                  <h3 class="robots-title">Видання Limited Edition</h3>
+                  <p class="text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="robots-item">
+              <a href="" class="robots-link">
+                <div class="robots-thumb">
+                  <img
+                  src="./images/portfolio8.jpg"
+                  alt="Сторінка у браузері ноутбуку"
+                  width="370"
+                  height="294"
+                />
+                <div class="robots-item-overlay">
+                    <div class="robots-description">
+                      <p class="robots-description-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="robots-wrapper">
+                  <h3 class="robots-title">Проєкт LAB</h3>
+                  <p class="text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="robots-item">
+              <a href="" class="robots-link">
+                <div class="robots-thumb">
+                  <img
+                  src="./images/portfolio9.jpg"
+                  alt="Сторінка у браузері ноутбуку"
+                  width="370"
+                  height="294"
+                />
+                <div class="robots-item-overlay">
+                    <div class="robots-description">
+                      <p class="robots-description-text">
+                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                        функціоналу та сервісів. Все це дозволить відвідувачу
+                        отримати вичерпні відомості про компанію чи приватну
+                        особу.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="robots-wrapper">
+                  <h3 class="robots-title">Growing Business</h3>
+                  <p class="text">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer bcfooter">
+      <div class="container footer-container">
+        <div class="contacts">
+          <a href="" class="logo footer"
+            >Web<span class="logo-footer">Studio</span>
+          </a>
+          <address class="adress-item">
+            <span class="adress">м. Київ, пр-т Лесі Українки, 26</span>
+            <a href="mailto:info@devstudio.com" class="connection-footer"
+              >info@devstudio.com</a
+            >
+            <a href="tel:+380961111111" class="connection-footer"
+              >+38 096 111 11 11</a
+            >
+          </address>
+        </div>
+        <div class="footer-social-list">
+          <h3 class="title footer">Приєднуйтесь</h3>
+          <ul class="social-list list">
+            <li class="social-list-item">
+              <a class="social-list-link footer" href="">
+                <svg class="footer-social-list-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="social-list-item">
+              <a class="social-list-link footer" href="">
+                <svg class="footer-social-list-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="social-list-item">
+              <a class="social-list-link footer" href="">
+                <svg class="footer-social-list-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="social-list-item">
+              <a class="social-list-link footer" href="">
+                <svg class="footer-social-list-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-mail-list">
+          <a class="contact-mail-form-text">Підпишіться на розсилку</a>
+          <form class="contact-mail-form">
+            <input
+              name="my_email"
+              class="contact-mail-input"
+              type="email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="contact-mail-submit-btn">
+              Підписатися
+              <svg class="contact-mail-btn-icon" width="24" height="23.99">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
